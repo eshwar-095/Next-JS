@@ -1,0 +1,12 @@
+import Link from "next/link";
+
+function Home() {
+  return (
+    <>
+      <h1>Next JS Pre-Rendering</h1>
+      <Link href="/posts">Posts</Link>
+    </>
+  );
+}
+
+export default Home;
